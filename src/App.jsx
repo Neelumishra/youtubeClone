@@ -1,19 +1,9 @@
 import "./App.css";
+import Sidebar from "./component/Sidebar";
 
-function              App() 
-
-
-
-
- {
+function App(){
   return <div className="App">
-
-
-
-
-
-
-
+    <Sidebar/>
   </div>;
 }
 
