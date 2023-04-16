@@ -30,7 +30,7 @@ export default function Sidebar({ sidebarOpen }) {
             <hr />
             <li>
               <MdVideoLibrary className="me-3" />
-              <strong>Libary</strong>
+              <strong>Library</strong>
             </li>
             <li>
               <AiOutlineHistory className="me-3" />
@@ -38,7 +38,7 @@ export default function Sidebar({ sidebarOpen }) {
             </li>
             <li>
               <MdOndemandVideo className="me-3" />
-              <strong>Your Vidoe</strong>
+              <strong>Your Vidoes</strong>
             </li>
             <li>
               <BsClockHistory className="me-3" />
@@ -46,7 +46,7 @@ export default function Sidebar({ sidebarOpen }) {
             </li>
             <li>
               <AiOutlineLike className="me-3" />
-              <strong>Liked video</strong>
+              <strong>Liked videos</strong>
             </li>
           </ul>
         </div>

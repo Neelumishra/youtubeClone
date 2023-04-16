@@ -1,62 +1,86 @@
-.inputcss{
-    width: 400px;
-    border-radius: 10px;
-    /* margin-top: 10px; */
-    cursor: pointer
-  
+* {
+  box-sizing: border-box;
+}
+.inputcss {
+  width: 400px;
+  border-radius: 10px;
+  /* margin-top: 10px; */
+  cursor: pointer;
 }
 
-.imgcss{
-     width:50px;
-     height:50px;
-     padding-left: 5px;
-    font-size: 20px;
-    cursor: pointer
-   
+.imgcss {
+  width: 45px;
+  height: 45px;
+  padding-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
 .inputcss {
   padding-left: 10px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .input-icon {
   position: absolute;
-   top: 50%;
-   right: 10px;
-  transform: translateY(-50%); 
-  font-size: 20px; 
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
   color: #aaa;
-  cursor: pointer
+  cursor: pointer;
 }
 
-.Audiocss{
-    margin-left: 10px;
-    font-size: 20px;
-    cursor: pointer
+.Audiocss {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.bar{
-    cursor: pointer
+.bar {
+  cursor: pointer;
 }
 
-.sidebar{
+.bodyHeader {
+  background-color: #676767;
+  border-radius: 5px;
+  width: 8%;
+  text-align: center;
+}
+
+.mainbody {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: auto;
+
+  border: 1px solid white;
+  gap: 10px;
+  margin: 0px;
+}
+
+.mainsubheading {
+  font-size: 7px;
+  padding: 5px;
+
+  margin: 0px;
+}
+
+.subheadingicon {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.sidebar {
   position: fixed;
-  width: 15vw;
+  width: 20vw;
   height: 100vh;
-  top: 10;
-  left: 0;
+  top: 10; 
+   left: 0;
 }
-.sidebar li{
+.sidebar li {
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
   cursor: pointer;
 }
-.sidebar li:hover{
+.sidebar li:hover {
   background-color: rgb(118, 80, 80);
 }
-
-
-
-
-
