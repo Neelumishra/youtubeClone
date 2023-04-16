@@ -10,7 +10,7 @@ import { FcSearch } from "react-icons/Fc";
 export default function Header() {
   return (
     <div className="container-fluid bg-dark text-white text-align-center">
-      <div className="row border p-1 pointer-cursor">
+      <div className="row p-1 pointer-cursor">
         <div className="col-1">
           <AiOutlineMenu className="bar"/>
           <ImYoutube2 className="imgcss"/>
