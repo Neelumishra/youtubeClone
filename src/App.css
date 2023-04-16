@@ -39,6 +39,23 @@
     cursor: pointer
 }
 
+.sidebar{
+  position: fixed;
+  width: 15vw;
+  height: 100vh;
+  top: 10;
+  left: 0;
+}
+.sidebar li{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sidebar li:hover{
+  background-color: rgb(118, 80, 80);
+}
+
 
 
 

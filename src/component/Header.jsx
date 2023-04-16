@@ -7,13 +7,13 @@ import { BiMicrophone } from "react-icons/Bi";
 import { ImYoutube2 } from "react-icons/Im";
 import { FcSearch } from "react-icons/Fc";
 
-export default function Header() {
+export default function Header({ handleSidebar }) {
   return (
     <div className="container-fluid bg-dark text-white text-align-center">
       <div className="row border p-1 pointer-cursor">
         <div className="col-1">
-          <AiOutlineMenu className="bar"/>
-          <ImYoutube2 className="imgcss"/>
+          <AiOutlineMenu className="bar" onClick={handleSidebar} />
+          <ImYoutube2 className="imgcss" />
         </div>
 
         <div className="offset-2 col-5 my-2">
