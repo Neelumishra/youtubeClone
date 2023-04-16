@@ -1,0 +1,45 @@
+.inputcss{
+    width: 400px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    cursor: pointer
+  
+}
+
+.imgcss{
+     width:50px;
+     height:50px;
+     padding-left: 5px;
+    font-size: 20px;
+    cursor: pointer
+   
+}
+.inputcss {
+  padding-left: 10px;
+  cursor: pointer
+}
+
+.input-icon {
+  position: absolute;
+   top: 50%;
+   right: 10px;
+  transform: translateY(-50%); 
+  font-size: 20px; 
+  color: #aaa;
+  cursor: pointer
+}
+
+.Audiocss{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer
+}
+
+.bar{
+    cursor: pointer
+}
+
+
+
+
+
